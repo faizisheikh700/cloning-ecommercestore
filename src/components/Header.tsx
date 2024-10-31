@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from 'next/image';
-import LogoName from '@/app/Public/Logo.png'
+import LogoName from '@/Public/Logo.png'
 import { CiSearch } from "react-icons/ci";
 import { AiOutlineHeart } from "react-icons/ai";
 import { IoCartOutline } from "react-icons/io5";
