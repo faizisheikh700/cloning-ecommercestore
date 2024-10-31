@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background: red; */
+  width: 100vw;
+  height: 5rem;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  /* justify-content: end; */
+  /* background: #fff; */
+  /* width: 23rem;
+  height: 1rem; */
+  overflow: hidden;
+  gap: 2rem;
+
+}
+.navbar ul li{
+  opacity: 30%;
+  color: black;
+}
+
+.navbar ul li:hover{
+  opacity: 100%;
+}
+
+.navbar .searchBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1rem; */
+  width: 20rem;
+  height: 3.5rem;
+  border-radius: 0.3rem;
+  background-color: #F5F5F5;
+  padding-left: 0px;
+}
+.searchBar input{
+  padding: 0.5rem;
+  background-color: #F5F5F5;
+  outline: none;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 9rem;
+  height: 2rem;
+}
+
+.mainContainer {
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+  /* place-items: center; */
+  /* margin: auto;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: auto;  */
+  /* grid-gap: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:90rem;
+  height:39rem;
+  background: linear-gradient(to right, #211C24 0%, #211C24 100%);
+}
+
+.playStation{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+
+}
+
+.mainContainer .textCon{
+  line-height: 4rem;
+  width: 44rem;
+  height: 16rem;
+}
+.mainContainer .textCon h1{
+  font-size: 1.5rem;
+  gap: 0;
+  color: rgba(255, 255, 255, 0.4);
+  /* opacity: 40%; */
+}
+
+.mainContainer .textCon h2{
+  font-size: 6rem;
+  font-weight: 100px;
+  color: #FFF;
+}
+
+.textCon p{
+  color: #909090;
+  font-size: 1rem;
+}
+.textCon button{
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 0.3rem;
+}
+
+.secondChild{
+  width: 25rem;
+  height: 39rem;
+}
+
+.disParent{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+
+
+.disFirstChild{
+  width: 45rem;
+  height: 37rem;
+}
+
+.mainFroVisAir{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  
+}
+
+
+.airPods{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.visionPro{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.disSecondChild{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45rem;
+  height: 37rem;
+  /* background: pink; */
+}
